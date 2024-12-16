@@ -933,7 +933,7 @@ const Chat = () => {
               </Stack>
               <QuestionInput
                 clearOnSend
-                placeholder="Type a new question..."
+                placeholder="This chatbot is configured to answer common GSOC HR policy questions that are currently found within the GSOC Associate Handbook. For answers to specific question contact generalist@gasoc.com"
                 disabled={isLoading}
                 onSend={(question, id) => {
                   appStateContext?.state.isCosmosDBAvailable?.cosmosDB
